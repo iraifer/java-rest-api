@@ -19,6 +19,7 @@
 
   <modules>
     <module>irpf-simple</module>
+    <module>irpf-rest</module>
   </modules>
 
   <dependencies>
