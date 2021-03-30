@@ -3,6 +3,7 @@ package fit.restapi.view;
 public class PersonVm {
     private double totalSalary;
     private int dependentsNumber;
+    private double irpf;
 
     public PersonVm() {
         super();
@@ -24,7 +25,13 @@ public class PersonVm {
         this.dependentsNumber = dependentsNumber;
     }
 
-    
+    public double getIrpf() {
+        return irpf;
+    }
+
+    public void setIrpf(double irpf) {
+        this.irpf = irpf;
+    }
 
 
 }
