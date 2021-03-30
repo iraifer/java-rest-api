@@ -1,5 +1,8 @@
 package fit.restapi.view;
 
+import java.math.RoundingMode;
+import java.text.DecimalFormat;
+
 public class PersonVm {
     private double totalSalary;
     private int dependentsNumber;
@@ -30,7 +33,11 @@ public class PersonVm {
     }
 
     public void setIrpf(double irpf) {
-        this.irpf = irpf;
+        Double valor;
+        DecimalFormat decimalFormat = new DecimalFormat("###0.00");
+        decimalFormat.setRoundingMode(RoundingMode.UP); 
+        valor = Double.parseDouble( decimalFormat.format(irpf).replace(",","."));
+        this.irpf = valor;
     }
 
 
