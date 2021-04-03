@@ -1,0 +1,10 @@
+fit\application\abstractions\RateTable.class
+fit\application\factories\DiscountTableFactory.class
+fit\core\IrpfCalculatorOO.class
+fit\application\RateTable2021.class
+fit\application\DiscountTable2021.class
+fit\core\IrpfCalculator.class
+fit\App.class
+fit\application\factories\RateTableFactory.class
+fit\application\abstractions\DiscountTable.class
+fit\domain\Person.class
